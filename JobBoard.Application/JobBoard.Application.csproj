@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JobBoard.Domain\JobBoard.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Address\" />
+    <Folder Include="Features\Company\" />
+    <Folder Include="Features\Country\" />
+    <Folder Include="Features\Industry\" />
+    <Folder Include="Features\Job\Commands\" />
+    <Folder Include="Features\Job\Queries\GetJobList\" />
+  </ItemGroup>
+
+</Project>
